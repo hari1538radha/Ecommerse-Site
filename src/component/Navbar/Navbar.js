@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div>
       <NavbarOptions />
-      <div className="flex  font-poppins items-center justify-between">
+      <div className="flex pt-3 font-poppins items-center justify-between">
         <div className="pl-[104px]">
           <img src={Logo} alt="logo"></img>
         </div>
