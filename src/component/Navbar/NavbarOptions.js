@@ -2,6 +2,8 @@ import React from "react";
 import DownArrow from "../Images/arrowdown.svg";
 import Profile from "../Images/profile.svg";
 import Cart from "../Images/Cart.svg";
+import Search from "../Images/search.svg";
+
 const NavbarOptions = () => {
   return (
     <div className="flex items-center justify-between">
@@ -15,15 +17,21 @@ const NavbarOptions = () => {
           <img src={DownArrow}></img>
         </p>
       </div>
-      <div>
-        <p className="flex ">
+      <div className="flex text-[20px] font-normal gap-x-4 pr-44 ">
+        <p className="flex gap-x-2 ">
           <img src={Profile}></img>
           Profile
         </p>
-        <p>
+        <p className="flex gap-x-5">
         <img src={Cart}></img>
 Items
         </p>
+<p className=" flex gap-x-3 text-gray-300">
+$0.00
+<img src={Search}></img>
+</p>
+
+        
       </div>
     </div>
   );
